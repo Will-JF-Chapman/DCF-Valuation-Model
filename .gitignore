@@ -1,0 +1,7 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Output file (regenerated on each run)
+DCF_Valuation.xlsx
