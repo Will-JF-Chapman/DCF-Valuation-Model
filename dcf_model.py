@@ -1313,7 +1313,7 @@ def build_summary_sheet(wb: Workbook, cd: CompanyData, refs: dict):
             ws.cell(row=r_idx, column=2).alignment = Alignment(horizontal="left")
             break
 
-    set_col_widths(ws, {"A": 34, "B": 22, "C": 4, "D": 4})
+    set_col_widths(ws, {"A": 34, "B": 22, "C": 4, "D": 22})
 
 
 # ----------------------------------------------------------------------------
